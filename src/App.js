@@ -15,24 +15,20 @@ function App() {
                 <Home />
             </Route>
 
-            <Route path="/articles">
+            <Route path="/categories">
                 <Articles />
             </Route>
 
-            <Route path="/article">
+            <Route path="/category">
                 <Article />
             </Route>
 
-            <Route path="/chat">
+            <Route path="/product">
                 <Chat/>  
             </Route>
 
-            <Route path="/register">
+            <Route path="/cart">
                 <Register />
-            </Route>
-
-            <Route path="/pageaboutus">
-                <PageAboutUs />
             </Route>
 
             <Route>
