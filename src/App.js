@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Page404 from './Views/Page404';
+import Categories from './Views/Categories';
 
 function App() {
   return (
@@ -16,19 +17,19 @@ function App() {
             </Route>
 
             <Route path="/categories">
-                <Articles />
+                <Categories />
             </Route>
 
             <Route path="/category">
-                <Article />
+                <Category />
             </Route>
 
             <Route path="/product">
-                <Chat/>  
+                <Product/>  
             </Route>
 
             <Route path="/cart">
-                <Register />
+                <Cart />
             </Route>
 
             <Route>
