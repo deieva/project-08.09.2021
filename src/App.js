@@ -4,6 +4,9 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Page404 from './Views/Page404';
 import Categories from './Views/Categories';
+import Category from './Views/Category';
+import Product from './Views/Product';
+import Cart from './Views/Cart';
 
 function App() {
   return (
