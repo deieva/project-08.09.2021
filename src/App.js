@@ -7,6 +7,7 @@ import Categories from './Views/Categories';
 import Category from './Views/Category';
 import Product from './Views/Product';
 import Cart from './Views/Cart';
+import Home from './Views/Home';
 
 function App() {
   return (
