@@ -3,7 +3,7 @@ import slider2 from '../Assets/Images/slider2.jpg';
 import slider3 from '../Assets/Images/slider3.jpg';
 import slider4 from '../Assets/Images/slider4.jpg';
 import slider5 from '../Assets/Images/slider5.jpg';
-
+import '../Assets/Css/Home.css';
 
 
 function Home() {
