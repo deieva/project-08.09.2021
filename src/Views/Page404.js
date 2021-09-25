@@ -143,16 +143,20 @@ function createFloor() {
 
 function createLion() {
     let lion;
+    let Lion;
   lion = new Lion();
   scene.add(lion.threegroup);
 }
 
 function createFan() {
+    let fan;
+    let Fan;
   fan = new Fan();
   fan.threegroup.position.z = 350;
   scene.add(fan.threegroup);
 }
 
+let Fan;
 Fan = function () {
   this.isBlowing = false;
   this.speed = 0;
