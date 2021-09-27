@@ -146,8 +146,7 @@ hr:after {
   -moz-transform: scale(0.3);
   transform: scale(0.3);
   opacity: 0.9;
-  animation: name duration timing-function delay iteration-count direction fill-mode;
-  -webkit-animation: moveclouds 15s linear infinite;
+  animation: moveclouds 15s linear infinite;
   -moz-animation: moveclouds 15s linear infinite;
   -o-animation: moveclouds 15s linear infinite;
 }
@@ -158,8 +157,7 @@ hr:after {
   -webkit-transform: scale(0.3);
   -moz-transform: scale(0.3);
   transform: scale(0.3);
-  animation: name duration timing-function delay iteration-count direction fill-mode;
-  -webkit-animation: moveclouds 17s linear infinite;
+  animation: moveclouds 17s linear infinite;
   -moz-animation: moveclouds 17s linear infinite;
   -o-animation: moveclouds 17s linear infinite;
 }
@@ -171,8 +169,7 @@ hr:after {
   -moz-transform: scale(0.6);
   transform: scale(0.6);
   opacity: 0.6;
-  animation: name duration timing-function delay iteration-count direction fill-mode;
-  -webkit-animation: moveclouds 25s linear infinite;
+  animation: moveclouds 25s linear infinite;
   -moz-animation: moveclouds 25s linear infinite;
   -o-animation: moveclouds 25s linear infinite;
 }
@@ -186,8 +183,7 @@ hr:after {
   transform: scale(0.6);
   opacity: 0.8;
 
-  animation: name duration timing-function delay iteration-count direction fill-mode;
-  -webkit-animation: moveclouds 25s linear infinite;
+  animation: moveclouds 25s linear infinite;
   -moz-animation: moveclouds 25s linear infinite;
   -o-animation: moveclouds 25s linear infinite;
 }
@@ -201,8 +197,7 @@ hr:after {
   transform: scale(0.75);
   opacity: 0.75;
 
-  animation: name duration timing-function delay iteration-count direction fill-mode;
-  -webkit-animation: moveclouds 18s linear infinite;
+  animation: moveclouds 18s linear infinite;
   -moz-animation: moveclouds 18s linear infinite;
   -o-animation: moveclouds 18s linear infinite;
 }
@@ -216,14 +211,13 @@ hr:after {
   transform: scale(0.5);
   opacity: 0.8;
 
-  animation: name duration timing-function delay iteration-count direction fill-mode;
-  -webkit-animation: moveclouds 20s linear infinite;
+  animation: moveclouds 20s linear infinite;
   -moz-animation: moveclouds 20s linear infinite;
   -o-animation: moveclouds 20s linear infinite;
 }
 
 
-@-webkit-keyframes moveclouds {
+@keyframes moveclouds {
   0% {
     margin-left: 1000px;
   }

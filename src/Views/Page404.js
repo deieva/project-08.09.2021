@@ -5,21 +5,18 @@ function Page404() {
 
     return (
         <div>
-            <div id="clouds">
-                <div className="cloud x1"></div>
-                <div className="cloud x1_5"></div>
-                <div className="cloud x2"></div>
-                <div className="cloud x3"></div>
-                <div className="cloud x4"></div>
-                <div className="cloud x5"></div>
+            <div class="mars"></div>
+            <img src="https://assets.codepen.io/1538474/404.svg" class="logo-404" />
+            <img src="https://assets.codepen.io/1538474/meteor.svg" class="meteor" />
+            <p class="title">Oh no!!</p>
+            <p class="subtitle">
+                You’re either misspelling the URL <br /> or requesting a page that's no longer here.
+            </p>
+            <div align="center">
+                <a class="btn-back" href="#">Back to previous page</a>
             </div>
-            <div className='c'>
-                <div className='_404'>404</div>
-                <hr/>
-                <div className ='_1'>THE PAGE</div>
-                <div className ='_2'>WAS NOT FOUND</div>
-                <a className ='btn' href='#'>BACK TO MARS</a>
-            </div>
+            <img src="https://assets.codepen.io/1538474/astronaut.svg" class="astronaut" />
+            <img src="https://assets.codepen.io/1538474/spaceship.svg" class="spaceship" />
         </div>
     )
 }
