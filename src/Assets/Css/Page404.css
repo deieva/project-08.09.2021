@@ -2,13 +2,13 @@
 /* $nunito-font: "Nunito", sans-serif; */
 
 
-/* @mixin breakpoint($point) {
+@mixin breakpoint($point) {
 	@if $point==mobile {
 		@media (max-width: 480px) and (min-width: 320px) {
 			@content;
 		}
 	}
-} */
+}
 
 
 @keyframes floating {
@@ -27,7 +27,7 @@
 	height: 100%;
 } */
 
-body {
+.container404 {
 	background-image: url("https://assets.codepen.io/1538474/star.svg"),
 		linear-gradient(to bottom, #05007a, #4d007d);
 	height: 100%;
@@ -41,7 +41,7 @@ body {
 	right: 0;
 	bottom: 0;
 	position: absolute;
-	height: 27vmin;
+	height: 18vmin;
 	background: url("https://assets.codepen.io/1538474/mars.svg") no-repeat bottom
 		center;
 	background-size: cover;
@@ -54,7 +54,7 @@ body {
 	left: 0;
 	right: 0;
 	top: 16vmin;
-	width: 30vmin;
+	width: 20vmin;
 
 	/* @include breakpoint(mobile) {
 		top: 45vmin;
@@ -64,7 +64,7 @@ body {
 .meteor {
 	position: absolute;
 	right: 2vmin;
-	top: 16vmin;
+	top: 10vmin;
 }
 
 .title {
@@ -116,9 +116,9 @@ body {
 	height: 30vmin;
 	animation: floating 3s infinite ease-in-out;
 
-	/* @include breakpoint(mobile) {
+	@include breakpoint(mobile) {
 		top: 2vmin;
-	} */
+	}
 }
 
 .spaceship {
@@ -126,8 +126,8 @@ body {
 	bottom: 15vmin;
 	right: 24vmin;
 
-	/* @include breakpoint(mobile) {
+	@include breakpoint(mobile) {
 		width: 45vmin;
 		bottom: 18vmin;
-	} */
+	}
 }
