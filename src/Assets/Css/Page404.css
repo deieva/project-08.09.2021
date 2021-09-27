@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700");
 $nunito-font: "Nunito", sans-serif;
 
-// mixins
+
 @mixin breakpoint($point) {
 	@if $point==mobile {
 		@media (max-width: 480px) and (min-width: 320px) {
@@ -10,7 +10,7 @@ $nunito-font: "Nunito", sans-serif;
 	}
 }
 
-// keyrames
+
 @keyframes floating {
 	from {
 		transform: translateY(0px);
@@ -99,7 +99,7 @@ body {
 	text-decoration: none;
 	border-radius: 5px;
 
-	&:hover {
+	:hover {
 		background: white;
 		color: #4d007d;
 	}
