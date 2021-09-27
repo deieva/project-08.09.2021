@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700");
-$nunito-font: "Nunito", sans-serif;
+/* $nunito-font: "Nunito", sans-serif; */
 
 
-@mixin breakpoint($point) {
+/* @mixin breakpoint($point) {
 	@if $point==mobile {
 		@media (max-width: 480px) and (min-width: 320px) {
 			@content;
 		}
 	}
-}
+} */
 
 
 @keyframes floating {
@@ -23,9 +23,9 @@ $nunito-font: "Nunito", sans-serif;
 	}
 }
 
-html {
+/* html {
 	height: 100%;
-}
+} */
 
 body {
 	background-image: url("https://assets.codepen.io/1538474/star.svg"),
@@ -56,9 +56,9 @@ body {
 	top: 16vmin;
 	width: 30vmin;
 
-	@include breakpoint(mobile) {
+	/* @include breakpoint(mobile) {
 		top: 45vmin;
-	}
+	} */
 }
 
 .meteor {
@@ -69,20 +69,20 @@ body {
 
 .title {
 	color: white;
-	font-family: $nunito-font;
+	/* font-family: $nunito-font; */
 	font-weight: 600;
 	text-align: center;
 	font-size: 5vmin;
 	margin-top: 31vmin;
 
-	@include breakpoint(mobile) {
+	/* @include breakpoint(mobile) {
 		margin-top: 65vmin;
-	}
+	} */
 }
 
 .subtitle {
 	color: white;
-	font-family: $nunito-font;
+	/* font-family: $nunito-font; */
 	font-weight: 400;
 	text-align: center;
 	font-size: 3.5vmin;
@@ -95,18 +95,18 @@ body {
 	color: white;
 	height: 5vmin;
 	padding: 12px;
-	font-family: $nunito-font;
+	/* font-family: $nunito-font; */
 	text-decoration: none;
 	border-radius: 5px;
 
-	:hover {
+	/* :hover {
 		background: white;
 		color: #4d007d;
-	}
+	} */
 
-	@include breakpoint(mobile) {
+	/* @include breakpoint(mobile) {
 		font-size: 3.5vmin;
-	}
+	} */
 }
 
 .astronaut {
@@ -116,9 +116,9 @@ body {
 	height: 30vmin;
 	animation: floating 3s infinite ease-in-out;
 
-	@include breakpoint(mobile) {
+	/* @include breakpoint(mobile) {
 		top: 2vmin;
-	}
+	} */
 }
 
 .spaceship {
@@ -126,8 +126,8 @@ body {
 	bottom: 15vmin;
 	right: 24vmin;
 
-	@include breakpoint(mobile) {
+	/* @include breakpoint(mobile) {
 		width: 45vmin;
 		bottom: 18vmin;
-	}
+	} */
 }
