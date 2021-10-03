@@ -8,6 +8,8 @@ import Category from './Views/Category';
 import Product from './Views/Product';
 import Cart from './Views/Cart';
 import Home from './Views/Home';
+import Login from './Views/Login';
+import Signin from './Views/Signin';
 
 function App() {
   return (
@@ -36,7 +38,13 @@ function App() {
                 <Cart />
             </Route>
 
-            
+            <Route path="/login">
+                <Login />
+            </Route>
+
+            <Route path="/signin">
+                <Signin />
+            </Route>
 
             <Route>
                 <Page404 />
