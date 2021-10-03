@@ -1,3 +1,5 @@
+import '../Assets/Css/Login.css';
+
 function Login() {
 
     return (
