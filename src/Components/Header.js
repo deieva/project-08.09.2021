@@ -11,8 +11,8 @@ function Header() {
                         <li className="nav-item"><a href="/cart" className="nav-link link-dark px-2">Cart</a></li>
                     </ul>
                     <ul className="nav">
-                        <li className="nav-item"><a href="#" className="nav-link link-dark px-2">Login</a></li>
-                        <li className="nav-item"><a href="#" className="nav-link link-dark px-2">Sign up</a></li>
+                        <li className="nav-item"><a href="/login" className="nav-link link-dark px-2">Login</a></li>
+                        <li className="nav-item"><a href="/signin" className="nav-link link-dark px-2">Sign up</a></li>
                     </ul>
                 </div>
             </nav>
