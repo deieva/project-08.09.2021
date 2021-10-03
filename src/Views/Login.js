@@ -10,7 +10,7 @@ function Login() {
 		<div className="card">
 			<div className="card-header">
 				<h3>Sign In</h3>
-				<div className="d-flex justify-content-end social_icon">
+				<div className="d-flex justify-content-end social-icon">
 					<span><i className="fab fa-facebook-square"></i></span>
 					<span><i className="fab fa-google-plus-square"></i></span>
 					<span><i className="fab fa-twitter-square"></i></span>
@@ -50,8 +50,8 @@ function Login() {
 		</div>
 	</div>
 </div>
+</div>
 
-        </div>
     )
 }
 
