@@ -36,6 +36,8 @@ function App() {
                 <Cart />
             </Route>
 
+            
+
             <Route>
                 <Page404 />
             </Route>
