@@ -1,3 +1,5 @@
+import '../Assets/Css/Header.css';
+
 function Header() {
 
     return (
@@ -24,7 +26,7 @@ function Header() {
                         <span className="fs-4">Tech space shop</span>
                     </a>
                     <form className="col-12 col-lg-auto mb-3 mb-lg-0">
-                        <input type="search" className="form-control" placeholder="Search..." aria-label="Search" />
+                        <input type="search" className="form-control search" placeholder="Search..." aria-label="Search" />
                     </form>
                 </div>
             </header>
