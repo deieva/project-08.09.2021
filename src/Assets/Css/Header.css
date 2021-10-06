@@ -1,10 +1,9 @@
 .search {
    border-radius: 18px;
    border-color:midnightblue;
-   
+      
 }
 
 .search:hover {
     border-color: lightseagreen!important;
-    
 }
