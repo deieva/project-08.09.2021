@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 .login-container {
-background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-image: url('../Images/login-bg.jpg');
 background-size: cover;
 background-repeat: no-repeat;
-height: 600px;
+height: 800px;
 font-family: 'Numans', sans-serif;
 }
 
 .card {
-height: 370px;
+height: 470px;
 margin-top: auto;
 margin-bottom: auto;
 width: 400px;
