@@ -11,11 +11,18 @@ function Login() {
 	<div className="d-flex justify-content-center h-100">
 		<div className="card">
 			<div className="card-header">
-				<h3>Sign In</h3>
+				<h3>Log In</h3>
 				<div className="d-flex justify-content-end social-icon">
-					<span><i className="fab fa-facebook-square"></i></span>
+				<a href="https://www.facebook.com/">
+					<span><i className="fab fa-facebook-square">
+						</i></span>
+						</a>
+						<a href="https://mail.google.com/">
 					<span><i className="fab fa-google-plus-square"></i></span>
+					</a>
+					<a href="https://twitter.com/">
 					<span><i className="fab fa-twitter-square"></i></span>
+					</a>
 				</div>
 			</div>
 			<div className="card-body">
