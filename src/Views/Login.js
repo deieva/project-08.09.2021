@@ -14,14 +14,14 @@ function Login() {
 				<h3>Log In</h3>
 				<div className="d-flex justify-content-end social-icon">
 				<a href="https://www.facebook.com/">
-					<span><i className="fab fa-facebook-square">
+					<span className="icons"><i className="fab fa-facebook-square">
 						</i></span>
 						</a>
 						<a href="https://mail.google.com/">
-					<span><i className="fab fa-google-plus-square"></i></span>
+					<span className="icons"><i className="fab fa-google-plus-square"></i></span>
 					</a>
 					<a href="https://twitter.com/">
-					<span><i className="fab fa-twitter-square"></i></span>
+					<span className="icons"><i className="fab fa-twitter-square"></i></span>
 					</a>
 				</div>
 			</div>
