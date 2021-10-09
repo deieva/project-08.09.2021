@@ -50,7 +50,7 @@ function Login() {
 			</div>
 			<div className="card-footer">
 				<div className="d-flex justify-content-center links">
-					Don't have an account?<a href="#" className="non-decoration">Sign Up</a>
+					Don't have an account?<a href="/signin" className="non-decoration">Sign Up</a>
 				</div>
 				<div className="d-flex justify-content-center">
 					<a href="#" className="non-decoration">Forgot your password?</a>
