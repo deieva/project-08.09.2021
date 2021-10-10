@@ -1,5 +1,4 @@
-// import { faFortAwesome } from '@fortawesome/free-brands-svg-icons';
-// import { faSquare } from '@fortawesome/free-regular-svg-icons';
+
 import '../Assets/Css/Login.css';
 
 function Login() {
