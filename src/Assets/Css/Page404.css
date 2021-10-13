@@ -3,6 +3,11 @@
 body {
 	background-color: #fffaea;
   }
+
+  .container404 {
+	  height: 400px;
+	  width: 400px;
+  }
   
   .contain {
 	height: 400px;
