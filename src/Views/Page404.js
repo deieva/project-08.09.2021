@@ -4,7 +4,7 @@ function Page404() {
 
 
     return (
-        <div className="container404">
+        <div className="container404 mx-auto">
 
             <div class="contain" id="animate">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

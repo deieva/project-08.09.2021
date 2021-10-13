@@ -7,6 +7,8 @@ body {
   .container404 {
 	  height: 400px;
 	  width: 400px;
+	  top: 30px;
+	  position: relative;
   }
   
   .contain {
