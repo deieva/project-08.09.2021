@@ -4,6 +4,9 @@ import slider3 from '../Assets/Images/slider3.jpg';
 import slider4 from '../Assets/Images/slider4.jpg';
 import slider5 from '../Assets/Images/slider5.jpg';
 import '../Assets/Css/Home.css';
+import laptop1 from '../Assets/Images/laptop1.jpg';
+import laptop2 from '../Assets/Images/laptop2.jpg';
+import laptop3 from '../Assets/Images/laptop3.jpg';
 
 
 function Home() {
@@ -67,7 +70,7 @@ function Home() {
 
             <div className="card-group">
                 <div className="card">
-                    <img className="card-img-top" src="..." alt="Card image cap" />
+                    <img className="card-img-top" src={laptop1} alt="Card image cap" />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
                         <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -75,7 +78,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="card">
-                    <img className="card-img-top" src="..." alt="Card image cap" />
+                    <img className="card-img-top" src={laptop2} alt="Card image cap" />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
                         <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -83,7 +86,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="card">
-                    <img className="card-img-top" src="..." alt="Card image cap" />
+                    <img className="card-img-top" src={laptop3} alt="Card image cap" />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
                         <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
