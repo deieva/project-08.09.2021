@@ -67,6 +67,7 @@ function Home() {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
+            <br/>
 
             <div className="card-group">
                 <div className="card">
