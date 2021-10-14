@@ -10,7 +10,7 @@ function Home() {
 
     return (
         <div>
-             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -20,38 +20,38 @@ function Home() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={slider1} className="d-block w-100" alt="..."/>
-                        <div className ="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <img src={slider1} className="d-block w-100" alt="..." />
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={slider2} className="d-block w-100" alt="..."/>
-                        <div className ="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                        <img src={slider2} className="d-block w-100" alt="..." />
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={slider3} className="d-block w-100" alt="..."/>
-                        <div className ="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        <img src={slider3} className="d-block w-100" alt="..." />
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={slider4} className="d-block w-100" alt="..."/>
-                        <div className ="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        <img src={slider4} className="d-block w-100" alt="..." />
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={slider5} className="d-block w-100" alt="..."/>
-                        <div className ="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        <img src={slider5} className="d-block w-100" alt="..." />
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
                         </div>
                     </div>
                 </div>
@@ -65,33 +65,33 @@ function Home() {
                 </button>
             </div>
 
-            <div class="card-group">
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap"/>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap"/>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap"/>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
-            
+            <div className="card-group">
+                <div className="card">
+                    <img className="card-img-top" src="..." alt="Card image cap" />
+                    <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div className="card">
+                    <img className="card-img-top" src="..." alt="Card image cap" />
+                    <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div className="card">
+                    <img className="card-img-top" src="..." alt="Card image cap" />
+                    <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     )
 }
