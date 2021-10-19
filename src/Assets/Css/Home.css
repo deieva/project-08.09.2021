@@ -1,5 +1,5 @@
 .card {
-    margin: 30px!important;
+    margin-right: 3px!important;
     border: none!important;
 }
 
@@ -9,4 +9,8 @@
 
 .card-img-top {
     border-radius: 12px!important;
+}
+
+.card1 {
+    margin-left: 3px!important;
 }

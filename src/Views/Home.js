@@ -69,8 +69,8 @@ function Home() {
             </div>
             <br/>
 
-            <div className="card-group">
-                <div className="card">
+            <div className="card-group mx-auto">
+                <div className="card card1">
                     <img className="card-img-top" src={laptop1} alt="Card image cap" />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
