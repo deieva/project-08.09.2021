@@ -6,3 +6,7 @@
 .card-group {
     padding-bottom: 50px!important;
 }
+
+.card-img-top {
+    border-radius: 12px!important;
+}
