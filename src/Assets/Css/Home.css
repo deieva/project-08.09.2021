@@ -17,4 +17,5 @@
 
 .card-body {
     background-color: lightsteelblue!important;
+    border-radius: 12px;
 }
