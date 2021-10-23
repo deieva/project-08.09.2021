@@ -74,15 +74,15 @@ function Signin() {
 									</div>
 									<div className="input-group mt-3">
 										<div className="input-group-prepend">
-											<span className="input-group-text br-15"><i className="fas fa-phone-square"></i></span>
-										</div>
-										<input type="text" placeholder="Phone" className="form-control" />
-									</div>
-									<div className="input-group mt-3">
-										<div className="input-group-prepend">
 											<span className="input-group-text br-15"><i className="fas fa-at"></i></span>
 										</div>
 										<input type="email" placeholder="Email" className="form-control" />
+									</div>
+									<div className="input-group mt-3">
+										<div className="input-group-prepend">
+											<span className="input-group-text br-15"><i className="fas fa-phone-square"></i></span>
+										</div>
+										<input type="text" placeholder="Phone" className="form-control" />
 									</div>
 								</div>
 							</form>

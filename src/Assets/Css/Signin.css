@@ -54,3 +54,7 @@ border-radius: 15px !important;
 background-color: #95c714 !important;
 border: 0 !important;
 }
+
+.card {
+    height: 400px;
+}
