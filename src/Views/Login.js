@@ -8,7 +8,7 @@ function Login() {
 
 <div className="login-container">
 	<div className="d-flex justify-content-center h-100">
-		<div className="card">
+		<div className="card-login">
 			<div className="card-header">
 				<h3>Log In</h3>
 				<div className="d-flex justify-content-end social-icon">
