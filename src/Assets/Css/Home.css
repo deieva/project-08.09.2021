@@ -1,7 +1,6 @@
 .card {
     margin-right: 10px;
     border: none!important;
-    background-color: lightseagreen!important;
 }
 
 /* .card-group {
@@ -17,6 +16,6 @@
 }
 
 .card-body-home {
-    background-color:lightseagreen;
+    background-color:lightsteelblue;
     
 }
