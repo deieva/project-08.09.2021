@@ -1,21 +1,22 @@
 .card {
     margin-right: 10px;
     border: none!important;
+    background-color: lightseagreen!important;
 }
 
-.card-group {
+/* .card-group {
     padding-bottom: 50px;
-}
+} */
 
-.card-img-top {
+/* .card-img-top {
     border-radius: 12px;
-}
+} */
 
 .card1 {
     margin-left: 10px;
 }
 
-.card-body-home {
+/* .card-body-home {
     background-color:lightseagreen;
     
-}
+} */
