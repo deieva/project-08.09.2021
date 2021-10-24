@@ -29,6 +29,15 @@ function Header() {
                         <input type="search" className="form-control search" placeholder="Search..." aria-label="Search" />
                     </form>
                 </div>
+
+                <ul class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/categories">Categories</a></li>
+                    <li><a href="/Category">Category</a></li>
+                    <li>Product</li>
+                </ul>
+
+
             </header>
 
         </div>
