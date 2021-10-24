@@ -30,14 +30,6 @@ function Header() {
                     </form>
                 </div>
 
-                <ul class="breadcrumb">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/categories">Categories</a></li>
-                    <li><a href="/Category">Category</a></li>
-                    <li>Product</li>
-                </ul>
-
-
             </header>
 
         </div>
