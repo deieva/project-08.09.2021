@@ -34,7 +34,7 @@ function Login() {
 						
 					</div>
 					<div className="input-group form-group">
-						<div className="input-group-prepend">
+						<div className="input-group-prepend-login">
 							<span className="input-group-text"><i className="fas fa-key"></i></span>
 						</div>
 						<input type="password" className="form-control" placeholder="password"/>
