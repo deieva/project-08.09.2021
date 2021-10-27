@@ -1,7 +1,15 @@
 .categories-container {
-    min-height: 520px;
+    min-height: 600px;
     display: flex;
     justify-content: center;
     align-items:center;
-    margin-left: 20px;
+    background-image:
+    linear-gradient(
+      to right, 
+      #f06d06, 
+      rgb(255, 255, 0), 
+      green,
+      blue
+    );
+
 }
