@@ -7,9 +7,10 @@
     linear-gradient(
       to right, 
       #f06d06, 
-      rgb(255, 255, 0), 
+      rgb(255, 255, 20), 
       green,
       blue
     );
+    
 
 }
