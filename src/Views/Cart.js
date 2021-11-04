@@ -1,5 +1,8 @@
 import '../Assets/Css/Cart.css';
 import $ from 'jquery';
+import laptop1 from '../Assets/Images/laptop1.jpg';
+import laptop2 from '../Assets/Images/laptop2.jpg';
+import laptop3 from '../Assets/Images/laptop3.jpg';
 
 function Cart() {
 
@@ -120,7 +123,7 @@ $(document).ready(function () {
                     <article class="product">
                         <header>
                             <a class="remove">
-                                <img src="http://www.sneakerfreaker.com/content/uploads/2014/03/sekure-d-custom-air-jordan-10-teal-graffiti-5.jpg" alt="" />
+                                <img src={laptop1} alt="" />
 
                                 <h3>Remove product</h3>
                             </a>
@@ -154,7 +157,7 @@ $(document).ready(function () {
                     <article class="product">
                         <header>
                             <a class="remove">
-                                <img src="http://4.kicksonfire.net/wp-content/uploads/2013/06/air-jordan-5-noah-1-640x395.jpeg" alt="" />
+                                <img src={laptop2} alt="" />
 
                                 <h3>Remove product</h3>
                             </a>
@@ -189,7 +192,7 @@ $(document).ready(function () {
                     <article class="product">
                         <header>
                             <a class="remove">
-                                <img src="http://4.kicksonfire.net/wp-content/uploads/2013/06/image-22-1024x1024.jpeg" alt="" />
+                                <img src={laptop3} alt="" />
 
                                 <h3>Remove product</h3>
                             </a>
